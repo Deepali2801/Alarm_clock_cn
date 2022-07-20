@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    background-color:lightsalmon;
+}
+#alarm{
+    border: 2px solid black;
+    width:350px;
+    height:auto;
+    background-color:lightblue;
+    color: black;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    border-radius: 60px ;
+    margin-top: 50px;;
+}
+#alarm h2{
+    
+    color:black;
+}
+#ctime{
+    font-size: 1.5rem;
+}
+#ctime-container{
+    font-size: 1.5rem;
+    background-color:white;
+    margin:30px;
+    border:1px solid black;
+    border-radius: 10px;;
+}         
+/* styling of alarm button */
+#set-alarm-button{
+    background-color: pink;
+    color:black;
+    font-size:medium;
+    margin-bottom: 15px;
+    
+}
+.line{
+    border:1px solid black;
+    background-color:white;
+}
+
+#alarm-values{
+    margin-top: 20px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+#alarm-values select{
+    margin: 0 10px 0 10px;
+}
+#list{
+    list-style: none;
+}
+#list li{
+    margin-top:10px;
+    display: flex;
+    justify-content: space-around;
+}
+#list li input{
+    background-color: pink;
+}
